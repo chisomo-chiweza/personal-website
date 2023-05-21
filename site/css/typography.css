@@ -1,0 +1,27 @@
+/* Global Typography */
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;600&display=swap");
+
+body,
+button {
+  font-family: "Martian Mono", monospace;
+}
+button {
+  font-weight: bold;
+}
+h1,
+p,
+a {
+  margin: 0%;
+  padding: 0%;
+}
+main p {
+  margin-top: 2vh;
+}
+
+/* Header Typography */
+.site-nav-and-controls a {
+  margin: 0vh 1vw 0vh 1vw;
+}
+.accessibility {
+  font-size: small;
+}

@@ -4,17 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Chisomo Chiweza</title>
   </head>
   <body>
-    <nav>
-      <a href="http://" target="_blank" rel="noopener noreferrer">Github</a>
-      <a href="http://" target="_blank" rel="noopener noreferrer">Twitter</a>
-      <a href="http://" target="_blank" rel="noopener noreferrer">Accessibility</a>
-    </nav>
+    <header>
+      <nav>
+        <div class="site-location">
+          <p>chisomochiweza@site:~$</p>
+        </div>
+
+        <div class="site-nav-and-controls">
+          <a href="">Work</a>
+          <a href="">A Programmer's Journal</a>
+          <div class="accessibility">
+            <button id="accessibility-controls" aria-expanded="false" onclick="dropDownAccessibilityMenu()">
+              Accessibility Controls
+            </button>
+            <div class="accessibility-options" id="accessibility-options">
+              <div id="toggle-display">
+                <span class="label">Display</span>
+                <span class="display-switch">
+                  <button>Light</button>
+                  <button>Dark</button>
+                </span>
+              </div>
+              <div id="toggle-animations">
+                <span class="label">Animations</span>
+                <span class="animations-switch">
+                  <button>On</button>
+                  <button>Off</button>
+                </span>
+              </div>
+              <div id="adjust-font-size">
+                <span class="label">Adjust Font Size</span>
+                <span class="counter">
+                  <button>+</button>
+                  <button>-</button>
+                </span>
+              </div>
+              <div id="adjust-font-size">
+                <span class="label">Adjust Font Size</span>
+                <span class="counter">
+                  <button>+</button>
+                  <button>-</button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <main>
-        <h1>Hello. I'm Chisomo Chiweza - a software engineer.</h1>
+      <h1>
+        Hello. My name is Chisomo Chiweza and I am a Malawian (🇲🇼) programmer.
+      </h1>
+      <p>
+        I build apps and sites with an eye for <mark><b>design</b></mark> and
+        <mark><b>perfomance</b></mark
+        >. <a href="">Check out my professional work</a>. Outside of work, I
+        like to contribute to open source and <s>rant</s> write about my
+        experiences engineering software.
+        <a href="">Learn more about my personal projects</a> or read entries
+        from <a href="">A Programmer's Journal</a>.
+      </p>
     </main>
-    <footer>Designed and built by Chisomo Chiweza</footer>
+    <footer>Chisomo Chiweza 2023 &#169;</footer>
+    <script src="./index.js"></script>
   </body>
 </html>
