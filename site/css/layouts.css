@@ -47,3 +47,19 @@ footer {
   background-color: white;
   border: 1px solid gray;
 }
+
+/* Work Layout */
+.top-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2vw;
+  padding: 2vh;
+  margin: 2vh
+}
