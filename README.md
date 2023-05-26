@@ -1,6 +1,14 @@
-## Website for Chisomo Chiweza
+## [Chisomo Chiweza](https://chisomochiweza.com/)
 
-### Production
-- This site is hosted on [Render](https://render.com/) and can be viewed live at [chisomochiweza.com](https://chisomochiweza.com/).
-### Releases
-- Major releases start from v1.0.0 and are published here.
+## Description
+A website for Chisomo Chiweza
+
+## Releases
+- Releases begin from v1.0.0
+
+## Copyright
+**Chisomo Chiweza &#169;** 
+
+## Contact
+Email: work@chisomochiweza.com  
+Website: [chisomochiweza.com](https://chisomochiweza.com/)
